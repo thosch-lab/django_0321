@@ -1,0 +1,38 @@
+[
+  {
+    "model": "polls.restaurant",
+    "fields": {
+      "key": "CAPITALDAX",
+      "value": "24312341234"
+    }
+  },
+  {
+    "model": "polls.dish",
+    "fields": {
+      "ticker": "DAX30",
+      "exchange": "lochsen",
+      "signal": "buy",
+      "volume": 0.5,
+      "volumeindikator": "PIP",
+      "orgm": "Ticker exchange original message bla bla",
+      "status": "open",
+      "previoustrade": 0,
+      "restaurant_id": 1
+    }
+  },
+  {
+    "model": "polls.dish",
+    "pk": 2,
+    "fields": {
+      "ticker": "DAX30",
+      "exchange": "lochsen",
+      "signal": "sell",
+      "volume": 0.5,
+      "volumeindikator": "PIP",
+      "orgm": "Ticker exchange original message bla bla",
+      "status": "close",
+      "previoustrade": 1,
+      "restaurant_id": 1
+    }
+  }
+]
